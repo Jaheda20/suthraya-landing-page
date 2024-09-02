@@ -19,7 +19,7 @@ const Banner = () => {
                             <FaList />
                             <span>Our Courses</span>
                         </button>
-                        <button className='btn btn-secondary'>Get Started
+                        <button className='btn btn-second'>Get Started
                             <span><FaLocationArrow /></span>
                         </button>
                     </div>
