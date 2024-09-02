@@ -1,5 +1,9 @@
 import { FaList, FaLocationArrow } from 'react-icons/fa';
 import './banner.css';
+import { AiOutlineMessage } from 'react-icons/ai';
+import { PiSuitcaseThin } from 'react-icons/pi';
+import { IoPeopleOutline } from 'react-icons/io5';
+import { IoMdBook } from 'react-icons/io';
 
 
 const Banner = () => {
@@ -16,9 +20,46 @@ const Banner = () => {
                             <span>Our Courses</span>
                         </button>
                         <button className='btn btn-secondary'>Get Started
-                            <span><FaLocationArrow /></span>                          
-                            </button>
+                            <span><FaLocationArrow /></span>
+                        </button>
                     </div>
+                </div>
+            </div>
+
+            <div className='feature-container'>
+                <div className='feature'>
+                    <p className='feature-icon'><IoMdBook size={52} color='navy' />
+                    </p>
+                    <h3 className='feature-title'>Learn & Grow</h3>
+                    <p className='feature-description'>Access courses, quizzes, and live streams to enhance your skills and knowledge</p>
+                </div>
+
+                <div className='feature'>
+                    <p className='feature-icon'>
+                    <IoPeopleOutline size={52} color='navy'/>
+                    </p>
+                    <h3 className='feature-title'>Community & Clans
+                    </h3>
+                    <p className='feature-description'>Join communities or clans to connect, collaborate, and grow together</p>
+                </div>
+
+                <div className='feature'>
+                    <p className='feature-icon'>
+                    <AiOutlineMessage size={52} color='navy'/>
+                    </p>
+                    <h3 className='feature-title'>Forum & Social
+                    </h3>
+                    <p className='feature-description'>Engage in discussions, share insights, and interact with the community</p>
+                </div>
+
+                <div className='feature'>
+                    <p className='feature-icon'>
+                    <PiSuitcaseThin size={52} color='navy' />
+
+                    </p>
+                    <h3 className='feature-title'>Career Opportunities
+                    </h3>
+                    <p className='feature-description'>Find job opportunities, freelance gigs, and build your professional network</p>
                 </div>
             </div>
 

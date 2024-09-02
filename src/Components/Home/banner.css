@@ -38,6 +38,7 @@
     font-size: 1rem;
     color: aliceblue;
     margin-bottom: 30px;
+    
 }
 
 .banner-buttons {
@@ -74,3 +75,45 @@
 .btn-secondary:hover {
     background-color: dimgray;
 }
+
+.feature-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80rem;
+    bottom: -15%;
+    gap: 20px;
+    width: 100%;
+}
+
+.feature {
+    flex: 1 1 250px;
+    max-width: 300px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) ;   
+    transition: background-color 2s ease;
+    flex-direction: column;
+    align-items: start;
+    height: 200px;
+}
+
+.feature:hover {
+    background-color: rgb(190, 203, 241);
+}
+
+.feature-icon {
+    margin-bottom: 6px;
+}
+
+.feature-title {
+    font-size: 1.3rem;
+    margin-bottom: 14px;
+}
+
+.feature-description {
+    color: rgb(32, 32, 32);
+}
+
