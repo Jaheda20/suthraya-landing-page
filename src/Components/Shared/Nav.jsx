@@ -8,7 +8,9 @@ const Nav = () => {
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <a href="#" className="logo">SuthRaya</a>
+                <a href="#" className="logo">S
+                    <span className='logo-name'>uthraya</span>
+                    </a>
                 <ul className="nav-links">
                     <NavLink>
                         <li>Home</li>
