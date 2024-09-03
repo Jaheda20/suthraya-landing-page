@@ -8,8 +8,8 @@ const Nav = () => {
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <a href="#" className="logo">S
-                    <span className='logo-name'>uthraya</span>
+                <a href="#" className="text-fuchsia-900 text-5xl font-bold">S
+                    <span className='text-3xl text-fuchsia-500'>uthraya</span>
                     </a>
                 <ul className="nav-links">
                     <NavLink>
@@ -26,7 +26,7 @@ const Nav = () => {
                     </NavLink>
 
                 </ul>
-                <a href="" className="btn login-btn">
+                <a href="" className="btn bg-fuchsia-600 ml-6 text-white">
                     <MdOutlineLogin className='login-icon'/>
                     <span>
                         Login

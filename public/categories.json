@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Technology & Innovation",     
+      "number_of_courses": 35,
+      "icon": "https://i.postimg.cc/cCcDDXJT/project-management.png",
+      "image": "https://i.postimg.cc/zXBSZJ2q/photo-1461749280684-dccba630e2f6-q-80-w-1469-auto-format-fit-crop-ixlib-rb-4-0.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Physics & Science",
+      "number_of_courses": 28,
+      "icon": "https://i.postimg.cc/1tw7F9hk/atom.png",
+      "image": "https://i.postimg.cc/TPDvkvv9/photo-1675458134252-1968ac5ef177-q-80-w-1514-auto-format-fit-crop-ixlib-rb-4-0.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Engineering",
+      "number_of_courses": 18,
+      "icon": "https://i.postimg.cc/MGcFW7sK/car-engine.png",
+      "image": "https://i.postimg.cc/J4zwfkWt/photo-1581094271901-8022df4466f9-q-80-w-1470-auto-format-fit-crop-ixlib-rb-4-0.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mathematics",
+      "number_of_courses": 22,
+      "icon": "https://i.postimg.cc/kX9zxt5f/calculating.png",
+      "image": "https://i.postimg.cc/kGjHJTdG/photo-1724304406928-c43b01912fa1-q-80-w-1631-auto-format-fit-crop-ixlib-rb-4-0.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Health & Wellbeing",
+      "number_of_courses": 15,
+      "icon": "https://i.postimg.cc/8Csq7QCG/healthcare.png",
+      "image": "https://i.postimg.cc/44wqQxhG/photo-1515377905703-c4788e51af15-q-80-w-1470-auto-format-fit-crop-ixlib-rb-4-0.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Languages",
+      "number_of_courses": 20,
+      "icon": "https://i.postimg.cc/0QKRBRgn/browser-4951619.png",
+      "image": "https://i.postimg.cc/Tw070t10/photo-1503676260728-1c00da094a0b-q-80-w-1644-auto-format-fit-crop-ixlib-rb-4-0.jpg"
+    }
+  ]
+  

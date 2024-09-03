@@ -15,8 +15,8 @@ const AboutUs = () => {
             }}>
                 <div className="max-w-5xl mx-auto w-full h-[600px] flex flex-col items-center justify-center"
                 >
-                    <p className="text-xl font-semibold text-white mb-6">Know About Us</p>
-                    <h1 className="text-5xl font-bold text-white">Education, Evolved: The Suthraya Way </h1>
+                    <p className="text-xl font-semibold text-fuchsia-300 mb-6">Know About Us</p>
+                    <h1 className="text-3xl font-bold text-white">Education, Evolved: The Suthraya Way </h1>
                 </div>               
             </div>
 

@@ -1,6 +1,6 @@
 const Subscribe = () => {
     return (
-        <div className="relative max-w-5xl mx-auto w-full bg-blue-950 text-white py-16 z-10 mt-40 flex items-center">
+        <div className="relative max-w-5xl mx-auto w-full bg-fuchsia-900 text-white py-16 z-10 mt-40 flex items-center">
             <div className="w-1/2 pl-20">
                 <h6 className="mb-3">Sign Up</h6>
                 <h2 className="text-4xl font-semibold">Join Suthraya Today</h2>

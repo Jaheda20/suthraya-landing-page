@@ -15,7 +15,7 @@ const Banner = () => {
                     </h1>
                     <p className="banner-description">Join a community where learning meets networking. Explore courses, connect with like-minded individuals, and discover new opportunities</p>
                     <div className="banner-buttons">
-                        <button className='btn btn-primary'>
+                        <button className='btn btn-primary bg-fuchsia-400'>
                             <FaList />
                             <span>Our Courses</span>
                         </button>
