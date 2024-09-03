@@ -3,8 +3,8 @@ import { Autoplay, FreeMode, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/free-mode';
-// import 'swiper/css/pagination';
 import { BsChatLeftQuoteFill } from "react-icons/bs";
+import RatingComponent from "./RatingComponent";
 
 
 const Testimonials = () => {
@@ -45,11 +45,14 @@ const Testimonials = () => {
                                     <p className="text-fuchsia-800 mb-10"><BsChatLeftQuoteFill size={56} />
                                     </p>
                                     <p className="text-slate-600 leading-relaxed">{review.review}</p>
-                                    <p className="mt-4">{review.rating}</p>
+                                    <div className="mt-3">
+                                        <RatingComponent value={Number(review.rating)} readOnly={true} />
+                                    </div>
+
                                 </div>
 
-                                <div className="flex mt-10 items-center">
-                                    <img src={review.image} alt="" className="w-24 h-24 mr-4 rounded-full"/>
+                                <div className="flex mt-10 items-center p-4">
+                                    <img src={review.image} alt="" className="w-24 h-24 mr-4 rounded-full" />
                                     <div>
                                         <h3 className="text-lg font-semibold text-slate-700">{review.name}</h3>
                                         <p className="text-fuchsia-800 text-sm">{review.profession}</p>
