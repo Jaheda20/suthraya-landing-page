@@ -12,7 +12,7 @@ const TopSkills = () => {
             </div>
             <div className="w-1/2 p-20">
                 <h2 className="text-3xl font-semibold text-blue-900">Enhance Your Abilities with Expert-Led Learning</h2>
-                <p className="mt-8 text-slate-700">Discover a range of expert-led courses designed to help you master new skills, boost your confidence, and achieve your goals. Start your journey to success today!</p>
+                <p className="mt-8 text-slate-700">Boost your skills with expert-led content, contribute your own insights, and test your knowledge with interactive quizzes. Start your learning adventure today!</p>
                 <button className="btn bg-indigo-950 text-white mt-10">Learn more..</button>
             </div>
 

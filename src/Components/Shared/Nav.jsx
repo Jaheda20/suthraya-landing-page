@@ -19,7 +19,7 @@ const Nav = () => {
                         <li>About Us</li>
                     </NavLink>
                     <NavLink>
-                        <li>Courses</li>
+                        <li>Trainings & Courses</li>
                     </NavLink>
                     <NavLink>
                         <li>Contact</li>

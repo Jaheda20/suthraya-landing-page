@@ -48,11 +48,9 @@ const Footer = () => {
                             <li>
                                 <a rel="noopener noreferrer" href="#">Mathematics</a>
                             </li>
+                        
                             <li>
-                                <a rel="noopener noreferrer" href="#">Space Program</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Health & Wellness</a>
+                                <a rel="noopener noreferrer" href="#">Health & Wellbeing</a>
                             </li>
                             <li>
                                 <a rel="noopener noreferrer" href="#">Languages</a>
