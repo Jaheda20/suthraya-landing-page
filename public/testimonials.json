@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Emily Roberts",
+        "profession": "Software Engineer",
+        "rating": 5,
+        "review": "Suthraya has completely transformed my learning experience. The courses are well-structured, and the expert guidance has helped me achieve my goals faster than I expected!",
+        "date": "2024-08-15",
+        "image": "https://expertphotography.b-cdn.net/wp-content/uploads/2018/10/cool-profile-pictures-aperture.jpg"
+    },
+    {
+        "name": "David Chen",
+        "profession": "Project Manager",
+        "rating": 4,
+        "review": "The variety of courses offered is impressive. I found exactly what I needed to advance in my career. The platform is user-friendly and the content is top-notch.",
+        "date": "2024-07-22",
+        "image": "https://i2.pickpik.com/photos/711/14/431/smile-profile-face-male-preview.jpg"
+    },
+    {
+        "name": "Sophia Martinez",
+        "profession": "Marketing Specialist",
+        "rating": 5,
+        "review": "I love how Suthraya offers courses that are both engaging and insightful. The expert-led sessions have given me the confidence to apply new skills in real-world scenarios.",
+        "date": "2024-09-02",
+        "image": "https://img.freepik.com/free-photo/close-up-young-person-barbeque_23-2149271990.jpg"
+    },
+    {
+        "name": "Michael Thompson",
+        "profession": "Data Analyst",
+        "rating": 4,
+        "review": "Suthraya provides a great learning environment. The interactive elements and practical assignments make it easy to retain information and apply it effectively.",
+        "date": "2024-08-10",
+        "image": "https://www.opticalexpress.co.uk/media/1064/man-with-glasses-smiling-looking-into-distance.jpg"
+    }
+]

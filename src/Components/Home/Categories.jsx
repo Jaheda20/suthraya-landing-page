@@ -12,12 +12,12 @@ const Categories = () => {
 
     return (
         <div className="my-20 bg-fuchsia-50">
-            <div className="max-w-7xl w-full mx-auto py-10">
+            <div className="max-w-7xl w-full mx-auto py-20">
                 <p className="mb-2 text-fuchsia-900 font-semibold text-lg">Learning Paths</p>
                 <h1 className="text-3xl font-bold text-slate-600">Browse Categories to Start Your Learning Journey</h1>
                 <div className="mt-10 grid grid-cols-3 gap-6">
                     {
-                        categories.map(category => <div key={category.id} className="w-full h-56 relative overflow-hidden transition-transform duration-200 hover:scale-105 s group">
+                        categories.map(category => <div key={category.id} className="w-full h-56 relative overflow-hidden transition-transform duration-200 hover:-translate-y-1 hover:scale-105 s group">
                             <div className="absolute inset-0 bg-cover bg-center"
                                 style={{ backgroundImage: `url(${category.image})` }}>
                                     <div className="absolute inset-0 bg-black opacity-70 transition duration-200 group-hover:bg-fuchsia-700 group-hover:opacity-70"></div>

@@ -4,7 +4,7 @@ import './image.css'
 const TopSkills = () => {
 
     return (
-        <div className="max-w-7xl w-full mx-auto mt-48 flex ">
+        <div className="max-w-7xl w-full mx-auto mt-56 flex ">
             <div className="w-1/2 relative">
                 <div className="image-container">
                     <img src="https://i.postimg.cc/KzDhk229/photo-1516534775068-ba3e7458af70-q-80-w-1470-auto-format-fit-crop-ixlib-rb-4-0.jpg" alt="" className='w-full h-auto object-cover' />

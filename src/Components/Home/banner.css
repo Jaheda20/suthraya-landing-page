@@ -94,16 +94,15 @@
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) ;   
-    transition: background-color 2s ease-out;
     flex-direction: column;
     align-items: start;
     height: 250px;
 }
 
-.feature:hover {
+/* .feature:hover {
     background-color: rgb(190, 203, 241);
     margin-top: -12px;
-}
+} */
 
 .feature-icon {
     margin-bottom: 6px;

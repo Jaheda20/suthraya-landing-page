@@ -27,14 +27,14 @@ const Banner = () => {
             </div>
 
             <div className='feature-container'>
-                <div className='feature'>
+                <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
                     <p className='feature-icon'><IoMdBook size={52} color='navy' />
                     </p>
                     <h3 className='feature-title'>Learn & Grow</h3>
                     <p className='feature-description'>Access courses, quizzes, and live streams to enhance your skills and knowledge</p>
                 </div>
 
-                <div className='feature'>
+                <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
                     <p className='feature-icon'>
                     <IoPeopleOutline size={52} color='navy'/>
                     </p>
@@ -43,7 +43,7 @@ const Banner = () => {
                     <p className='feature-description'>Join communities or clans to connect, collaborate, and grow together</p>
                 </div>
 
-                <div className='feature'>
+                <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
                     <p className='feature-icon'>
                     <AiOutlineMessage size={52} color='navy'/>
                     </p>
@@ -52,7 +52,7 @@ const Banner = () => {
                     <p className='feature-description'>Engage in discussions, share insights, and interact with the community</p>
                 </div>
 
-                <div className='feature'>
+                <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
                     <p className='feature-icon'>
                     <PiSuitcaseThin size={52} color='navy' />
 
