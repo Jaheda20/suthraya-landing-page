@@ -1,10 +1,14 @@
-import { FaFacebookSquare, FaGithub } from "react-icons/fa";
+import { useState } from "react";
+import { FaFacebookSquare, FaGithub, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 
 
 
 const Login = () => {
+
+    const [showPassword, setShowPassword] = useState(false);
+
     return (
         <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-700 to-pink-300">
             <Link to={'/'}>
@@ -12,15 +16,22 @@ const Login = () => {
             </Link>
             <div className="flex items-center justify-center">
                 <div className="max-w-lg w-full p-8 pt-20 space-y-3  dark:bg-fuchsia-50 dark:text-gray-800 mt-10">
-                    <h1 className="text-2xl font-bold text-center">Login</h1>
-                    <form noValidate="" action="" className="space-y-6">
+                    <h1 className="text-3xl font-bold text-center text-fuchsia-950">Welcome Back</h1>
+                    <h1 className="text-lg font-semibold text-center mb-12">Login here!</h1>
+                    <form noValidate="" action="" className="space-y-6 mt-8">
                         <div className="space-y-1 text-sm">
                             <label htmlFor="username" className="block dark:text-gray-600">Email</label>
                             <input type="email" name="email" id="username" placeholder="Email address" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
                         </div>
-                        <div className="space-y-1 text-sm">
+                        <div className="space-y-1 text-sm relative">
                             <label htmlFor="password" className="block dark:text-gray-600">Password</label>
-                            <input type="password" name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+                            <input type={showPassword ? "text" : "password"} name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+                            <span onClick={() => setShowPassword(!showPassword)} className="absolute top-8 right-4">
+                                {
+                                    showPassword ? <FaRegEye size={18} />
+                                        : <FaRegEyeSlash size={18} />
+                                }
+                            </span>
                             <div className="flex justify-end text-xs dark:text-gray-600">
                                 <a rel="noopener noreferrer" href="#">Forgot Password?</a>
                             </div>

@@ -1,8 +1,14 @@
+import { useState } from "react";
+import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
+
+    const [showPassword, setShowPassword] = useState(false);
+
+
     return (
-        <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-600 to-pink-200 flex flex-col">
+        <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-500 to-pink-200 flex flex-col">
             <div className="flex flex-1 items-center justify-center">
                 <div className="flex w-full h-full py-12 max-w-4xl mx-auto">
                     {/* Form Section */}
@@ -11,7 +17,7 @@ const SignUp = () => {
                         <h4 className="text-xs text-center mb-8 ">Create an account to unlock personalized learning experiences, exclusive content, and connect with a community of learners!</h4>
                         <form noValidate="" action="" className="space-y-6">
                             <div className="space-y-1 text-sm">
-                                <label htmlFor="username" className="block dark:text-gray-600">Username</label>
+                                <label htmlFor="username" className="block dark:text-gray-600">Full Name</label>
                                 <input type="text" name="username" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
                             </div>
                             <div className="space-y-1 text-sm">
@@ -22,15 +28,21 @@ const SignUp = () => {
                                 <label htmlFor="email" className="block dark:text-gray-600">Email</label>
                                 <input type="email" name="email" id="email" placeholder="Email Address" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
                             </div>
-                            <div className="space-y-1 text-sm">
+                            <div className="space-y-1 text-sm relative">
                                 <label htmlFor="password" className="block dark:text-gray-600">Password</label>
-                                <input type="password" name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+                                <input type={showPassword ? "text" : "password"} name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+                                <span onClick={() => setShowPassword(!showPassword)} className="absolute top-8 right-4">
+                                    {
+                                        showPassword ? <FaRegEye size={18} /> 
+                                        : <FaRegEyeSlash size={18} />
+                                    }
+                                </span>
                             </div>
                             <button className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-fuchsia-600">Sign up</button>
                         </form>
 
                         <p className="text-xs text-center sm:px-6 dark:text-gray-600">Already have an account?
-                            <Link to={'/login'} className="underline hover:text-blue-800 dark:text-gray-800"> Sign in</Link>
+                            <Link to={'/login'} className="underline hover:text-blue-800 dark:text-gray-800"> Login</Link>
                         </p>
                     </div>
 
