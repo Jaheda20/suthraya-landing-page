@@ -5,8 +5,8 @@ import { SlPeople } from "react-icons/sl";
 const Facts = () => {
     return (
         <div className="mt-44 max-w-7xl mx-auto">
-            <p className="mb-2 text-fuchsia-900 font-semibold text-lg">The Suthraya Promise</p>
-            <h1 className="text-3xl font-bold text-slate-700">What Makes us Different?</h1>
+            <p className="mb-2 text-fuchsia-900 font-semibold text-lg">Our Offerings</p>
+            <h1 className="text-3xl font-bold text-slate-700">What We Do Differently</h1>
             <div className="mt-10 grid grid-cols-3 gap-10">
                 <div className="flex gap-4 bg-fuchsia-100 p-6 shadow-lg border-t-4 border-fuchsia-900 rounded-md transition hover:scale-105 duration-300">
                     <p className="text-fuchsia-800"><FaUserAstronaut size={44} />
