@@ -15,8 +15,8 @@ const Login = () => {
                     <h1 className="text-2xl font-bold text-center">Login</h1>
                     <form noValidate="" action="" className="space-y-6">
                         <div className="space-y-1 text-sm">
-                            <label htmlFor="username" className="block dark:text-gray-600">Username</label>
-                            <input type="text" name="username" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+                            <label htmlFor="username" className="block dark:text-gray-600">Email</label>
+                            <input type="email" name="email" id="username" placeholder="Email address" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
                         </div>
                         <div className="space-y-1 text-sm">
                             <label htmlFor="password" className="block dark:text-gray-600">Password</label>
