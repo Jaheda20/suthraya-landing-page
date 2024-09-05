@@ -1,4 +1,5 @@
 import { Rating, Stack } from "@mui/material";
+import PropTypes from 'prop-types';
 
 const RatingComponent = ({value, readOnly}) => {
     return (
@@ -10,3 +11,8 @@ const RatingComponent = ({value, readOnly}) => {
 };
 
 export default RatingComponent;
+
+RatingComponent.propTypes = {
+    value : PropTypes.number.isRequired,
+    readOnly: PropTypes.bool.isRequired
+}

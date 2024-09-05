@@ -55,7 +55,7 @@ const Login = () => {
 
                         </button>
                     </div>
-                    <p className="text-xs text-center sm:px-6 dark:text-gray-600">Don't have an account?
+                    <p className="text-xs text-center sm:px-6 dark:text-gray-600">Do not have an account?
                         <Link to={'/signup'} className="underline hover:text-blue-800 dark:text-gray-800"> Sign up</Link>
                     </p>
                 </div>
