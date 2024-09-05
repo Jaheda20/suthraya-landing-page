@@ -28,22 +28,20 @@ const Nav = () => {
                 <NavLink className={({ isActive }) => `flex items-center gap-1 p-2 ${isActive ? 'bg-fuchsia-100 text-blue-800 font-semibold py-2 px-4 rounded-md' : "text-slate-800 hover:text-blue-800"}`} to="/community"><HiOutlineDesktopComputer size={18}/>
                     Community</NavLink>
             </li>
-
-
         </>
     )
 
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <a href="#" className="text-fuchsia-900 text-5xl font-bold">S
-                    <span className='text-3xl text-fuchsia-500'>uthraya</span>
+                <a href="#" className="text-fuchsia-800 text-5xl font-bold">S
+                    <span className='text-3xl text-fuchsia-600'>uthraya</span>
                 </a>
                 <ul className="nav-links flex space-x-1 justify-end ml-auto">
                     {navOptions}
 
                 </ul>
-                <Link to={'/login'} className="btn bg-fuchsia-600 ml-6 text-white">
+                <Link to={'/login'} className="btn bg-fuchsia-600 ml-6 text-white hover:bg-fuchsia-300 hover:text-slate-800">
                     <MdOutlineLogin className='login-icon' />
                     <span>
                         Login
