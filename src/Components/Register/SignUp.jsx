@@ -8,7 +8,7 @@ const SignUp = () => {
 
 
     return (
-        <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-500 to-pink-200 flex flex-col">
+        <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-400 to-pink-200 flex flex-col">
             <div className="flex flex-1 items-center justify-center">
                 <div className="flex w-full h-full py-12 max-w-4xl mx-auto">
                     {/* Form Section */}
@@ -41,7 +41,7 @@ const SignUp = () => {
                             <button className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-fuchsia-600">Sign up</button>
                         </form>
 
-                        <p className="text-xs text-center sm:px-6 dark:text-gray-600">Already have an account?
+                        <p className="text-xs text-center sm:px-6 dark:text-gray-600 mt-3">Already have an account?
                             <Link to={'/login'} className="underline hover:text-blue-800 dark:text-gray-800"> Login</Link>
                         </p>
                     </div>

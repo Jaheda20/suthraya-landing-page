@@ -10,7 +10,7 @@ const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
 
     return (
-        <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-700 to-pink-300">
+        <div className="w-screen h-screen bg-gradient-to-br from-fuchsia-400 to-pink-200">
             <Link to={'/'}>
                 <h1 className="text-3xl text-white font-bold pt-8 mx-10">Suthraya</h1>
             </Link>

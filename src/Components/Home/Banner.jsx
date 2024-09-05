@@ -28,15 +28,15 @@ const Banner = () => {
 
             <div className='feature-container'>
                 <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
-                    <p className='feature-icon'><IoMdBook size={52} color='navy' />
+                    <p className='text-fuchsia-900 mb-2'><IoMdBook size={52} />
                     </p>
                     <h3 className='feature-title'>Learn & Grow</h3>
                     <p className='feature-description'>Access courses, quizzes, and live streams to enhance your skills and knowledge</p>
                 </div>
 
                 <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
-                    <p className='feature-icon'>
-                    <IoPeopleOutline size={52} color='navy'/>
+                    <p className='text-fuchsia-900 mb-2'>
+                    <IoPeopleOutline size={52} />
                     </p>
                     <h3 className='feature-title'>Community & Clans
                     </h3>
@@ -44,8 +44,8 @@ const Banner = () => {
                 </div>
 
                 <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
-                    <p className='feature-icon'>
-                    <AiOutlineMessage size={52} color='navy'/>
+                    <p className='text-fuchsia-900 mb-2'>
+                    <AiOutlineMessage size={52} />
                     </p>
                     <h3 className='feature-title'>Forum & Social
                     </h3>
@@ -53,8 +53,8 @@ const Banner = () => {
                 </div>
 
                 <div className='feature transform hover:bg-fuchsia-200 hover:scale-95 duration-200'>
-                    <p className='feature-icon'>
-                    <PiSuitcaseThin size={52} color='navy' />
+                    <p className=' text-fuchsia-900 mb-2'>
+                    <PiSuitcaseThin size={52} />
 
                     </p>
                     <h3 className='feature-title'>Career Opportunities
