@@ -5,15 +5,15 @@
     box-sizing: border-box;
 }
 
-.navbar {   
+/* .navbar {   
     padding: 1.5rem;  
     width: 100%;
     top: 0;
     left: 0;
     z-index: 100;
-}
+} */
 
-.nav-container {
+/* .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,9 +21,9 @@
     margin: 0 auto;
     width: 100%;
     padding: 0 20px;
-}
+} */
 
-.logo {
+/* .logo {
     font-size: 36px;
     text-decoration: none;
     font-weight: bold;
@@ -33,7 +33,7 @@
 .logo-name {
     color: navy;
     font-size: 28px;
-}
+} */
 
 /* .nav-links {
     display: flex;
