@@ -53,7 +53,7 @@ const Nav = () => {
         <nav className="navbar">
             <div className="max-w-7xl mx-auto w-full flex items-center justify-between my-6 px-4 md:px-0">
 
-                <a href="#" className="text-fuchsia-800 text-5xl font-bold">S
+                <a href="#" className="text-fuchsia-800 text-3xl md:text-5xl font-bold">S
                     <span className='text-3xl text-fuchsia-600'>uthraya</span>
                 </a>
 
@@ -69,7 +69,7 @@ const Nav = () => {
                 </button>
 
                 {isOpen && (
-                    <div className="absolute top-14 right-0 z-50 bg-fuchsia-100 bg-opacity-90 w-72 p-4 shadow-md rounded-lg">
+                    <div className="absolute top-14 right-0 z-50 bg-fuchsia-100 bg-opacity-90 w-96 h-full p-4 shadow-md rounded-lg">
                         {/* Close Button */}
                         <button onClick={handleMenuToggle} className="absolute top-4 right-4 text-fuchsia-900">
                             <IoClose size={24} />
